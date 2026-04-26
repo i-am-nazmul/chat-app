@@ -45,5 +45,5 @@ export default async function DashboardPage() {
     email: friend.email,
   }));
 
-  return <DashboardClient username={user.username} friends={friends} />;
+  return <DashboardClient username={user.username} userId={userId} friends={friends} />;
 }

@@ -17,7 +17,7 @@ export default function HomePage() {
         <div className="grid w-full max-w-sm grid-cols-1 gap-3 text-sm font-medium sm:grid-cols-2">
           <Link
             href="/login"
-            className="inline-flex w-full items-center justify-center rounded-full bg-slate-950 px-5 py-3 text-white transition hover:bg-slate-800"
+            className="inline-flex w-full items-center justify-center rounded-full bg-slate-950 px-5 py-3 !text-white visited:!text-white transition hover:bg-slate-800"
           >
             Login
           </Link>
